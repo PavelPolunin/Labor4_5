@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp4_5.Pages;
 
 namespace WpfApp4_5
 {
@@ -23,6 +24,8 @@ namespace WpfApp4_5
         public MainWindow()
         {
             InitializeComponent();
+            // Переход к странице входа (LoginPage) внутри фрейма содержимого окна.
+            ContentFrame.Navigate(new LoginPage());
         }
     }
 }
