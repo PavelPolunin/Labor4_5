@@ -24,9 +24,9 @@ namespace WpfApp4_5.Pages
         // Приватное свойство для хранения текущего аккаунта пользователя.
         private Accounts account { get; set; }
         // Приватное свойство для работы с моделью данных EF.
-        private ModeIEF model { get; set; }
+        private ModelIEF model { get; set; }
         // Конструктор класса, принимающий модель данных и аккаунт пользователя.
-        public UpdatePasswordPage(ModeIEF _model, Accounts _account)
+        public UpdatePasswordPage(ModelIEF _model, Accounts _account)
         {
             // Инициализация компонентов страницы.
             InitializeComponent();
